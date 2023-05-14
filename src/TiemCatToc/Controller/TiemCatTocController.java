@@ -31,7 +31,6 @@ public class TiemCatTocController implements ActionListener{
         }
         else if(button.equals("Đặt")){
             this.view.addLichHen();
-            System.out.println("siuuu");
         }
         else if(button.equals("Xác nhận")){
             this.view.kiemTra();

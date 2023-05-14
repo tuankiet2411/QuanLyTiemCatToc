@@ -687,12 +687,12 @@ public class TiemCatTocView extends JFrame {
         featureKhach.add(btnDeleteKhach);
         jpanelCenter = new JPanel();
         jpanelCenter.setLayout(new BorderLayout());
-        jpanelCenter.add(featureKhach, BorderLayout.NORTH);
+        jpanelCenter.add(featureKhach, BorderLayout.EAST);
 
         scrollPaneKhach = new JScrollPane(tableKhach);
 
         this.add(scrollPaneKhach, BorderLayout.NORTH);
-        this.add(jpanelCenter, BorderLayout.EAST);
+        this.add(jpanelCenter, BorderLayout.CENTER);
         this.setVisible(true);
     }
 
